@@ -49,7 +49,7 @@ client.on('message', async message => {
     }
   
      if(message.content === "*mus"){
-      message.reply("L'hébergeur n'est pas assez puissant pour faire joué de la musique pour l'instant merci d'utilisé Rythm");
+      message.reply("L'hébergeur n'est pas assez puissant pour faire jouer de la musique pour l'instant merci d'utilisé Rythm");
       console.log('Le bot est k.o. !');
   }
 
