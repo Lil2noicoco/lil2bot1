@@ -46,6 +46,10 @@ client.on('message', async message => {
     if(message.content === "*gif"){
       message.reply("Oups, en cours de dévelopement");
       console.log('Le bot envoie un gif !');
+      
+      if(message.content === "*mus"){
+      message.reply("L'hébergeur n'est pas assez puissant pour faire joué de la musique pour l'instant merci d'utilisé Rythm ");
+      console.log('Le bot explique pourquoi il ne joue pas de musique !');
   }
 
     if(message.content === prefix + "aide") {
